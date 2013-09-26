@@ -7,3 +7,16 @@ Tandy/TRS-80 Color Computer. It can accept on 2732, 2764 or 27128
 EPROM. Board thickness must be 0.062". Gold plating is preferable to
 avoid contact oxidation. Board is designed to the OSHpark design rules
 for a 2-layer PCB.
+
+CoCoEPROMpak is a free hardware design: you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+CoCoEPROMpak is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with CoCoEPROMpak. If not, see <http://www.gnu.org/licenses/>.
