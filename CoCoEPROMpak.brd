@@ -46,8 +46,8 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
@@ -78,7 +78,7 @@
 &lt;BR&gt;&lt;A HREF="https://github.com/NF6X/CoCoEPROMpak"&gt;https://github.com/NF6X/CoCoEPROMpak&lt;/A&gt;</description>
 <plain>
 <text x="45.085" y="21.59" size="1.4224" layer="22" rot="MR0">CoCoEPROMpak v1
-Coyright 2013 by Mark J. Blair
+Copyright 2013 by Mark J. Blair
 Distributed under GPLv3
 https://github.com/NF6X/CoCoEPROMpak</text>
 <text x="31.75" y="37.465" size="1.778" layer="21">U1: 2732
