@@ -77,12 +77,14 @@
 &lt;BR&gt;Distributed under GPLv3
 &lt;BR&gt;&lt;A HREF="https://github.com/NF6X/CoCoEPROMpak"&gt;https://github.com/NF6X/CoCoEPROMpak&lt;/A&gt;</description>
 <plain>
-<text x="45.085" y="21.59" size="1.4224" layer="22" rot="MR0">CoCoEPROMpak v1
+<text x="48.26" y="22.225" size="1.4224" layer="22" font="vector" rot="MR0">CoCoEPROMpak v1
 Copyright 2013 by Mark J. Blair
 Distributed under GPLv3
 https://github.com/NF6X/CoCoEPROMpak</text>
-<text x="31.75" y="37.465" size="1.778" layer="21">U1: 2732
+<text x="31.115" y="38.1" size="1.4224" layer="21" font="vector">U1: 2732
 U2: 2764 or 27128</text>
+<text x="1.27" y="38.735" size="1.778" layer="21" font="vector">CoCoEPROMpak
+by NF6X</text>
 </plain>
 <libraries>
 <library name="CoCo">
@@ -168,11 +170,11 @@ U2: 2764 or 27128</text>
 <vertex x="31.75" y="44.45"/>
 </polygon>
 <rectangle x1="34.29" y1="38.1" x2="38.1" y2="41.91" layer="39"/>
-<text x="2.54" y="11.938" size="1.27" layer="25">&gt;NAME</text>
-<text x="2.54" y="10.16" size="1.27" layer="21" align="bottom-center">1</text>
-<text x="50.8" y="10.16" size="1.27" layer="21" align="bottom-center">39</text>
-<text x="2.54" y="10.16" size="1.27" layer="22" rot="MR0" align="bottom-center">2</text>
-<text x="50.8" y="10.16" size="1.27" layer="22" rot="MR0" align="bottom-center">40</text>
+<text x="2.54" y="11.938" size="1.778" layer="25" font="vector">&gt;NAME</text>
+<text x="2.54" y="10.16" size="1.27" layer="21" font="vector" align="bottom-center">1</text>
+<text x="50.8" y="10.16" size="1.27" layer="21" font="vector" align="bottom-center">39</text>
+<text x="2.54" y="10.16" size="1.27" layer="22" font="vector" rot="MR0" align="bottom-center">2</text>
+<text x="50.8" y="10.16" size="1.27" layer="22" font="vector" rot="MR0" align="bottom-center">40</text>
 <rectangle x1="0" y1="0" x2="1.905" y2="10.16" layer="41"/>
 <rectangle x1="3.175" y1="0" x2="4.445" y2="10.16" layer="41"/>
 <rectangle x1="5.715" y1="0" x2="6.985" y2="10.16" layer="41"/>
@@ -253,7 +255,7 @@ U2: 2764 or 27128</text>
 <pad name="22" x="-8.89" y="7.62" drill="0.8128" diameter="1.778" rot="R90"/>
 <pad name="23" x="-11.43" y="7.62" drill="0.8128" diameter="1.778" rot="R90"/>
 <pad name="24" x="-13.97" y="7.62" drill="0.8128" diameter="1.778" rot="R90"/>
-<text x="-15.494" y="-6.731" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-15.494" y="-6.731" size="1.778" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 </package>
 <package name="DIL28">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
@@ -291,7 +293,7 @@ U2: 2764 or 27128</text>
 <pad name="26" x="-11.43" y="7.62" drill="0.8128" diameter="1.778" rot="R90"/>
 <pad name="27" x="-13.97" y="7.62" drill="0.8128" diameter="1.778" rot="R90"/>
 <pad name="28" x="-16.51" y="7.62" drill="0.8128" diameter="1.778" rot="R90"/>
-<text x="-18.161" y="-6.604" size="1.778" layer="25" rot="R90">&gt;NAME</text>
+<text x="-18.161" y="-6.604" size="1.778" layer="25" font="vector" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -1399,7 +1401,7 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-3.81" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-3.81" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
-<text x="-1.524" y="-3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-1.524" y="-3.81" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -1590,20 +1592,20 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="P1" library="CoCo" package="COCO-CART-2.1X1.75" value="COCO-CART" x="0" y="0" smashed="yes">
-<attribute name="NAME" x="4.445" y="10.668" size="1.778" layer="25"/>
+<attribute name="NAME" x="4.445" y="10.668" size="1.778" layer="25" font="vector"/>
 </element>
 <element name="U1" library="EPROM" package="DIL24" value="2732" x="29.21" y="26.67" smashed="yes">
-<attribute name="NAME" x="13.335" y="25.146" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="13.335" y="25.146" size="1.778" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="U2" library="EPROM" package="DIL28" value="27128" x="26.67" y="24.13" smashed="yes">
-<attribute name="NAME" x="8.255" y="22.479" size="1.778" layer="25" rot="R90"/>
+<attribute name="NAME" x="8.255" y="22.479" size="1.778" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="C1" library="resistor" package="C050-025X075" value="0.1" x="17.78" y="38.1" smashed="yes">
-<attribute name="NAME" x="16.383" y="39.878" size="1.778" layer="25" ratio="10"/>
+<attribute name="NAME" x="22.098" y="36.703" size="1.778" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="14.351" y="35.306" size="1.27" layer="27" ratio="10" display="off"/>
 </element>
 <element name="JP1" library="switch" package="JP2-100MIL" value="JP2" x="3.81" y="29.21" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.175" y="31.369" size="1.778" layer="25"/>
+<attribute name="NAME" x="3.175" y="31.369" size="1.778" layer="25" font="vector"/>
 </element>
 </elements>
 <signals>

@@ -211,11 +211,11 @@
 <vertex x="31.75" y="44.45"/>
 </polygon>
 <rectangle x1="34.29" y1="38.1" x2="38.1" y2="41.91" layer="39"/>
-<text x="2.54" y="11.938" size="1.27" layer="25">&gt;NAME</text>
-<text x="2.54" y="10.16" size="1.27" layer="21" align="bottom-center">1</text>
-<text x="50.8" y="10.16" size="1.27" layer="21" align="bottom-center">39</text>
-<text x="2.54" y="10.16" size="1.27" layer="22" rot="MR0" align="bottom-center">2</text>
-<text x="50.8" y="10.16" size="1.27" layer="22" rot="MR0" align="bottom-center">40</text>
+<text x="2.54" y="11.938" size="1.778" layer="25" font="vector">&gt;NAME</text>
+<text x="2.54" y="10.16" size="1.27" layer="21" font="vector" align="bottom-center">1</text>
+<text x="50.8" y="10.16" size="1.27" layer="21" font="vector" align="bottom-center">39</text>
+<text x="2.54" y="10.16" size="1.27" layer="22" font="vector" rot="MR0" align="bottom-center">2</text>
+<text x="50.8" y="10.16" size="1.27" layer="22" font="vector" rot="MR0" align="bottom-center">40</text>
 <rectangle x1="0" y1="0" x2="1.905" y2="10.16" layer="41"/>
 <rectangle x1="3.175" y1="0" x2="4.445" y2="10.16" layer="41"/>
 <rectangle x1="5.715" y1="0" x2="6.985" y2="10.16" layer="41"/>
@@ -474,7 +474,7 @@
 <pad name="22" x="-8.89" y="7.62" drill="0.8128" diameter="1.778" rot="R90"/>
 <pad name="23" x="-11.43" y="7.62" drill="0.8128" diameter="1.778" rot="R90"/>
 <pad name="24" x="-13.97" y="7.62" drill="0.8128" diameter="1.778" rot="R90"/>
-<text x="-15.494" y="-6.731" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-15.494" y="-6.731" size="1.778" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 </package>
 <package name="DIL28">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
@@ -512,7 +512,7 @@
 <pad name="26" x="-11.43" y="7.62" drill="0.8128" diameter="1.778" rot="R90"/>
 <pad name="27" x="-13.97" y="7.62" drill="0.8128" diameter="1.778" rot="R90"/>
 <pad name="28" x="-16.51" y="7.62" drill="0.8128" diameter="1.778" rot="R90"/>
-<text x="-18.161" y="-6.604" size="1.778" layer="25" rot="R90">&gt;NAME</text>
+<text x="-18.161" y="-6.604" size="1.778" layer="25" font="vector" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -4004,7 +4004,7 @@ Metric Code Size 5664</description>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-3.81" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-3.81" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
-<text x="-1.524" y="-3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-1.524" y="-3.81" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
