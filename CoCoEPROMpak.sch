@@ -4142,19 +4142,19 @@ https://github.com/NF6X/CoCoEPROMpak</text>
     * Install 2732 at U1
     * JP2, JP3 not used
 8k:
-    * Install 2764 at U1
+    * Install 2764 at U2
     * Set JP2 to "1 or 3"
     * Set JP3 to "2 or 3"
 16k:
-    * Install 27128 at U1
+    * Install 27128 at U2
     * Set JP2 to "1 or 3"
     * Set JP3 to "2 or 3"
 32k:
-    * Install 27256 at U1
+    * Install 27256 at U2
     * Select bank with JP2
     * Set JP3 to "2 or 3"
 64k:
-    * Install 27512 at U1
+    * Install 27512 at U2
     * Select bank with JP2 and JP3
 </text>
 <text x="182.88" y="40.64" size="1.778" layer="97">CoCoEPROMpak is a free hardware design: you can redistribute it
