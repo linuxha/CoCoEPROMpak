@@ -1,0 +1,9 @@
+CoCoEPROMpak v1.0
+Copyright 2013 by Mark J. Blair
+Distributed under GPLv3
+
+CoCoEPROMpak is a PCB design for an EPROM-based ROM cartridge for the
+Tandy/TRS-80 Color Computer. It can accept on 2732, 2764 or 27128
+EPROM. Board thickness must be 0.062". Gold plating is preferable to
+avoid contact oxidation. Board is designed to the OSHpark design rules
+for a 2-layer PCB.
