@@ -87,12 +87,15 @@
 Copyright 2013 by Mark J. Blair
 Distributed under GPLv3
 https://github.com/NF6X/CoCoEPROMpak</text>
-<text x="5.588" y="29.337" size="1.27" layer="21" font="vector">0/1</text>
-<text x="5.588" y="31.877" size="1.27" layer="21" font="vector">2/3</text>
-<text x="5.461" y="37.592" size="1.27" layer="21" font="vector">0/2</text>
-<text x="5.461" y="40.132" size="1.27" layer="21" font="vector">1/3</text>
+<text x="5.588" y="29.337" size="1.27" layer="21" font="vector">A15/VPP:
+1
+0</text>
+<text x="5.461" y="37.592" size="1.27" layer="21" font="vector">A14/!PGM!:
+1
+0</text>
 <text x="31.75" y="38.1" size="1.778" layer="29" font="vector">CoCoEPROMpak
 by NF6X</text>
+<text x="9.525" y="12.065" size="1.27" layer="21" font="vector">AUTOSTART</text>
 </plain>
 <libraries>
 <library name="CoCo">
@@ -1434,7 +1437,7 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="LaenPCBOrder">
+<designrules name="LaenPCBOrder *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1498,7 +1501,7 @@ Please make sure your boards conform to these design rules.</description>
 <param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="25mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>

@@ -4126,7 +4126,7 @@ Metric Code Size 5664</description>
 
 &lt;P&gt;You should have received a copy of the GNU General Public License along with CoCoEPROMpak. If not, see &lt;http://www.gnu.org/licenses/&gt;.</description>
 <plain>
-<text x="127" y="78.74" size="1.778" layer="97">Autoboot Jumper
+<text x="127" y="78.74" size="1.778" layer="97">Autostart Jumper
 (normally installed)</text>
 <text x="142.24" y="190.5" size="6.4516" layer="97" align="bottom-center">4k-64k EPROM Cartridge
 for Tandy/TRS-80 Color Computer</text>
@@ -4134,28 +4134,24 @@ for Tandy/TRS-80 Color Computer</text>
 Distributed under GPLv3
 https://github.com/NF6X/CoCoEPROMpak</text>
 <text x="96.52" y="53.34" size="1.778" layer="97">Bank Select Jumpers</text>
-<text x="101.6" y="43.18" size="1.778" layer="97">0 or 2</text>
-<text x="101.6" y="45.72" size="1.778" layer="97">1 or 3</text>
-<text x="101.6" y="33.02" size="1.778" layer="97">0 or 1</text>
-<text x="101.6" y="35.56" size="1.778" layer="97">2 or 3</text>
-<text x="12.7" y="38.1" size="2.54" layer="97" font="fixed">4k:
+<text x="10.16" y="60.96" size="2.54" layer="97" font="fixed">4k:
     * Install 2732 at U1
     * JP2, JP3 not used
 8k:
     * Install 2764 at U2
-    * Set JP2 to "1 or 3"
-    * Set JP3 to "2 or 3"
+    * Set JP2 to 1
+    * Set JP3 to 1
 16k:
     * Install 27128 at U2
-    * Set JP2 to "1 or 3"
-    * Set JP3 to "2 or 3"
+    * Set JP2 to 1
+    * Set JP3 to 1
 32k:
     * Install 27256 at U2
-    * Select bank with JP2
-    * Set JP3 to "2 or 3"
+    * Select 16k bank with JP2
+    * Set JP3 to 1
 64k:
     * Install 27512 at U2
-    * Select bank with JP2 and JP3
+    * Select 16k banks with JP2 and JP3
 </text>
 <text x="182.88" y="40.64" size="1.778" layer="97">CoCoEPROMpak is a free hardware design: you can redistribute it
 and/or modify it under the terms of the GNU General Public License
@@ -4170,6 +4166,10 @@ See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with CoCoEPROMpak. If not, see http://www.gnu.org/licenses/.
 </text>
+<text x="106.68" y="43.18" size="1.778" layer="97" align="bottom-right">A14/!PGM!:  1
+0</text>
+<text x="106.68" y="33.02" size="1.778" layer="97" align="bottom-right">A15/VPP:  1
+0</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
